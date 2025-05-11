@@ -7,29 +7,44 @@ const Faq = () => {
     const [faq, setFaq] = useState([
         {
             question: 'Who is NexoraTLX for?',
-            answer: '<a href="#" title="" class="text-blue-600 transition-all duration-200 hover:underline">NexoraTLX</a> is ideal for students, self-learners, and educators looking for a hands-on, digital-first curriculum in science, technology, engineering, arts, and mathematics (STEAM).',
+            answer: '<a href="#" title="" class="text-blue-600 transition-all duration-200 hover:underline">NexoraTLX</a> is for students, educators, professionals, and innovators across STEAM (Science, Technology, Engineering, Arts, and Mathematics) disciplines who are eager to bridge the gap between academic learning and real-world application. Whether you&apos;re a school or college student exploring your passion, a corporate team seeking upskilling in emerging technologies, or a changemaker working on R&D aligned with global sustainability goals, Nexora TLX provides the tools, mentorship, and innovation ecosystem to help you grow, create, and lead in the industries of the future.',
             open: false
         },
         {
             question: 'What makes NexoraTLX different from other learning platforms?',
-            answer: '<a href="#" title="" class="text-blue-600 transition-all duration-200 hover:underline">NexoraTLX</a> combines interactive modules, real-world projects, and AI-powered experiences to make learning engaging, personalized, and future-ready.',
-            open: false
+            answer: 'What sets <a href="#" title="" class="text-blue-600 transition-all duration-200 hover:underline">Nexora TLX</a> apart from other learning platforms is its unique blend of hands-on, industry-aligned learning, cross-disciplinary innovation, and real-world problem-solving. Unlike traditional platforms that focus solely on content delivery, Nexora TLX integrates Innovation Labs, mentorship from industry experts, and project-based experiences that prepare learners for emerging careers in space tech, biotech, AI, climate tech and many more. Our programs are designed not just to teach, but to ignite curiosity, enable collaboration, and drive solutions that align with global challenges and the UN Sustainable Development Goals.',
+            open: true
         },
         {
             question: 'Is this platform free?',
-            answer: 'We offer both free and premium modules. You can start learning for free and upgrade to unlock advanced features and <a href="#courses" title="" class="text-blue-600 transition-all duration-200 hover:underline">certifications</a>.',
+            answer: 'Nexora TLX offers a mix of <a href="#programs" title="" class="text-blue-600 transition-all duration-200 hover:underline">free and paid</a> programs. Many of our resources, events, and community learning opportunities are accessible at no cost to help learners explore and grow. For more advanced experiences—such as specialized courses, Innovation Lab access, certification programs, and mentorship tracks—we offer affordable, value-driven plans to support deeper learning and real-world skill development.',
             open: false
         },
         {
-            question: 'Can educators or schools use Nexora in classrooms?',
-            answer: 'Absolutely! Nexora TLX is also designed for institutional use. Educators can assign modules and track student progress.',
+            question: 'What kind of programs does Nexora TLX offer?',
+            answer: 'Nexora TLX offers a wide range of programs including workshops, bootcamps, certification courses, internships, innovation challenges, and mentorship series across STEAM fields. These are designed to be hands-on, industry-relevant, and aligned with future technologies.',
             open: false
         },
         {
-            question: 'Will I get a certificate after completion?',
-            answer: 'Yes, premium users get downloadable certificates after completing each module or track.',
+            question: 'How can schools or colleges partner with Nexora TLX?',
+            answer: 'Educational institutions can collaborate with Nexora TLX to establish Innovation Labs, integrate custom learning modules into their curriculum, and provide students with access to global mentorship and cutting-edge projects. Get in touch with our partnerships team to learn more.',
             open: false
-        }
+        },
+        {
+            question: 'Can professionals join Nexora TLX too?',
+            answer: 'Yes, professionals and corporate teams can enroll in upskilling programs tailored to emerging sectors like AI, robotics, biotech, space technology, and climate innovation. We also offer custom training modules for organizations.',
+            open: false
+        },
+        {
+            question: 'What are Innovation Labs?',
+            answer: 'Innovation Labs are physical or virtual spaces created by Nexora TLX where learners and professionals collaborate, prototype ideas, conduct R&D, and build real-world solutions. These labs serve as hubs for creativity, experimentation, and entrepreneurial thinking.',
+            open: false
+        },
+        {
+            question: 'Are there certificates or credentials?',
+            answer: 'Yes, participants receive certificates upon successful completion of eligible programs, which can strengthen academic portfolios or resumes and demonstrate job-ready skills.',
+            open: false
+        },
     ]);
 
     const toggleFaq = (index: number) => {

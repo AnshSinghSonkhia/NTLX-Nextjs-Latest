@@ -83,8 +83,9 @@ export default async function BlogPostPage({ params }: Props) {
       <article className="flex flex-col gap-4">
         <h1 className="text-3xl font-bold">{post.title}</h1>
         <div className="flex items-center space-x-2 text-sm text-gray-600">
-          <span className="text-green-700 font-medium">{post.category}</span> •{' '}
-          <span>{post.date}</span>
+          <span className="text-green-700 font-medium">{post.category}</span> • {" "}
+          <span>{" "}</span>
+          <span>{" "} {post.date}</span>
         </div>
         <div className="relative w-full h-96 mt-4 mb-6">
           <Image
