@@ -18,6 +18,7 @@ export function Tertimonials() {
           name: "Dr. Meera Kulkarni",
           designation: "Director, National Institute of Educational Technology",
           src: "/avatar/av2.png",
+          video: "https://www.youtube.com/embed/gEdePRsDACc?controls=1&autoplay=0&mute=0&modestbranding=1&rel=0",
         },
         {
           quote:
@@ -71,7 +72,7 @@ export function Tertimonials() {
         </h4>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
-            <AnimatedTestimonials testimonials={leadersTestimonials} autoplay={true}  />
+            <AnimatedTestimonials testimonials={leadersTestimonials} autoplay={false}  />
         </div>
       </div>
     </section>
