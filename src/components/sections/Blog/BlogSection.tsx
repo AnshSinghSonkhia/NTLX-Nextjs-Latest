@@ -32,28 +32,28 @@ const BlogSection: React.FC<BlogSectionProps> = ({ posts }) => {
       {posts
         // .sort((a, b) => parseInt(b.id) - parseInt(a.id))
         .map((post) => (
-    <div key={post.id} className="flex flex-col">
-      <Link href={`/blog/${post.slug}`} className="overflow-hidden rounded-lg">
-        <div className="relative h-64 w-full mb-4 rounded-lg overflow-hidden">
-        <Image 
-          src={post.imageSrc} 
-          alt={post.title}
-          fill
-          className="object-cover transition-transform hover:scale-105"
-        />
-        </div>
-      </Link>
-      <div className="flex items-center space-x-2 mb-2">
-        <span className="text-green-700 font-medium">{post.category}</span>
-        <span className="text-gray-500">•</span>
-        <span className="text-gray-500">{post.date}</span>
-      </div>
-      <Link href={`/blog/${post.slug}`} className="block">
-        <h3 className="text-xl font-bold hover:text-green-800 transition-colors">
-        {post.title}
-        </h3>
-      </Link>
-    </div>
+            <div key={post.id} className="flex flex-col">
+            <Link href={`/blog/${post.slug}`} className="overflow-hidden rounded-lg">
+                <div className="relative h-64 w-full mb-4 rounded-lg overflow-hidden">
+                <Image 
+                src={post.imageSrc} 
+                alt={post.title}
+                fill
+                className="object-cover transition-transform hover:scale-105"
+                />
+                </div>
+            </Link>
+            <div className="flex items-center space-x-2 mb-2">
+                <span className="text-green-700 font-medium">{post.category}</span>
+                <span className="text-gray-500">•</span>
+                <span className="text-gray-500">{post.date}</span>
+            </div>
+            <Link href={`/blog/${post.slug}`} className="block">
+                <h3 className="text-xl font-bold hover:text-green-800 transition-colors">
+                {post.title}
+                </h3>
+            </Link>
+            </div>
         ))}
       </div>
     </section>
