@@ -10,6 +10,7 @@ type Testimonial = {
   name: string;
   designation: string;
   src: string;
+  video?: string;
 };
 
 export const AnimatedTestimonials = ({
@@ -55,7 +56,7 @@ export const AnimatedTestimonials = ({
           <AnimatePresence>
             {testimonials.map((t, i) => (
               <motion.div
-                key={t.src}
+                key={t.src + (t.video ?? "")}
                 initial={{
                   opacity: 0,
                   scale: 0.9,
@@ -81,14 +82,32 @@ export const AnimatedTestimonials = ({
                 transition={{ duration: 0.7, ease: "easeInOut" }} // slower card transition
                 className="absolute inset-0 origin-bottom"
               >
-                <Image
+                {/* <Image
                   src={t.src}
                   alt={t.name}
                   width={500}
                   height={500}
                   draggable={false}
                   className="h-full w-full rounded-3xl object-cover object-center"
-                />
+                /> */}
+                {t.video ? (
+                    <iframe
+                    src={t.video}
+                    title={t.name}
+                    className="h-full w-full rounded-3xl object-cover"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    />
+                ) : (
+                    <Image
+                    src={t.src}
+                    alt={t.name}
+                    width={500}
+                    height={500}
+                    draggable={false}
+                    className="h-full w-full rounded-3xl object-cover object-center"
+                    />
+                )}
               </motion.div>
             ))}
           </AnimatePresence>
