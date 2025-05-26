@@ -14,39 +14,39 @@ export function Tertimonials() {
     const leadersTestimonials = [
         {
           quote:
-            "Nexora's platform has redefined how we deliver STEAM education. It’s intuitive, scalable, and built with the learner in mind.",
-          name: "Dr. Meera Kulkarni",
-          designation: "Director, National Institute of Educational Technology",
+            "From Rockets in Russia to Real Impact: The Student Journey that Sparked Nexora TLX",
+          name: "Mr. Aditya Bargaje",
+          designation: "Propulsion Engineer",
           src: "/avatar/av2.png",
-          video: "https://www.youtube.com/embed/gEdePRsDACc?controls=1&autoplay=0&mute=0&modestbranding=1&rel=0",
+          video: "https://www.youtube.com/embed/1hUuB2jBeJU?controls=1&autoplay=0&mute=0&modestbranding=1&rel=0",
         },
         {
           quote:
             "This product bridges the gap between innovation and accessibility. It's the kind of solution India’s education sector needs.",
-          name: "Prof. Anil Joshi",
-          designation: "Innovation Fellow, Atal Innovation Mission",
-          src: "/avatar/av3.jpeg",
+          name: "Dr. Anil Joshi",
+          designation: "Professor (PhD in Aerospace Engineering)",
+          src: "/avatar/prof.png",
         },
         {
           quote:
             "What impressed us most was the student-first design. Our learners are more engaged and curious than ever before.",
           name: "Shreya Nair",
           designation: "Principal, Vidya Valley International School",
-          src: "/avatar/av4.png",
+          src: "/avatar/new1.png",
         },
         {
           quote:
             "Their interactive AI modules are groundbreaking. This is the future of tech-driven learning in India.",
-          name: "Arvind Rao",
-          designation: "Head of Curriculum Innovation, Learnify India",
-          src: "/avatar/av6.jpg",
+          name: "Dr. Shikha Rao",
+          designation: "PhD in Satellite Technology",
+          src: "/avatar/NewUser1.png",
         },
         {
           quote:
             "We're proud to collaborate on a solution that’s not just smart, but socially impactful. True innovation starts here.",
           name: "Dr. Ritu Sharma",
           designation: "Advisor, Ministry of Education, Govt. of India",
-          src: "/avatar/av7.jpg",
+          src: "/avatar/new2.png",
         },
       ];
       
