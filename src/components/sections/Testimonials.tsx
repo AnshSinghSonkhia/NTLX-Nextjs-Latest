@@ -17,8 +17,16 @@ export function Tertimonials() {
             "From Rockets in Russia to Real Impact: The Student Journey that Sparked Nexora TLX",
           name: "Mr. Aditya Bargaje",
           designation: "Propulsion Engineer",
-          src: "/avatar/av2.png",
+          src: "/avatar/child3.png",
           video: "https://www.youtube.com/embed/1hUuB2jBeJU?controls=1&autoplay=0&mute=0&modestbranding=1&rel=0",
+        },
+        {
+          quote:
+            "From Dreams to the Cosmos: Yaswini's Russia Space Workshop Experience",
+          name: "Yashwini Sharma",
+          designation: "Final Year Student, Aerospace Engineering (MIT ADT University, Pune)",
+          src: "/avatar/child3.png",
+          video: "https://www.youtube.com/embed/yN2JEOV2cjA?controls=1&autoplay=0&mute=0&modestbranding=1&rel=0",
         },
         {
           quote:
@@ -34,21 +42,21 @@ export function Tertimonials() {
           designation: "Principal, Vidya Valley International School",
           src: "/avatar/new1.png",
         },
-        {
-          quote:
-            "Their interactive AI modules are groundbreaking. This is the future of tech-driven learning in India.",
-          name: "Dr. Shikha Rao",
-          designation: "PhD in Satellite Technology",
-          src: "/avatar/NewUser1.png",
-        },
-        {
-          quote:
-            "We're proud to collaborate on a solution that’s not just smart, but socially impactful. True innovation starts here.",
-          name: "Dr. Ritu Sharma",
-          designation: "Advisor, Ministry of Education, Govt. of India",
-          src: "/avatar/new2.png",
-        },
-      ];
+    ];
+    // {
+    //   quote:
+    //     "Their interactive AI modules are groundbreaking. This is the future of tech-driven learning in India.",
+    //   name: "Dr. Shikha Rao",
+    //   designation: "PhD in Satellite Technology",
+    //   src: "/avatar/NewUser1.png",
+    // },
+    // {
+    //   quote:
+    //     "We're proud to collaborate on a solution that’s not just smart, but socially impactful. True innovation starts here.",
+    //   name: "Dr. Ritu Sharma",
+    //   designation: "Advisor, Ministry of Education, Govt. of India",
+    //   src: "/avatar/new2.png",
+    // },
       
 
   return (
@@ -141,4 +149,3 @@ const testimonials = [
       title: "Middle School Science Teacher",
     },
   ];
-  
