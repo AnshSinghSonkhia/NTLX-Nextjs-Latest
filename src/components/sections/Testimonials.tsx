@@ -30,17 +30,27 @@ export function Tertimonials() {
         },
         {
           quote:
-            "This product bridges the gap between innovation and accessibility. It's the kind of solution India’s education sector needs.",
-          name: "Dr. Anil Joshi",
-          designation: "Professor (PhD in Aerospace Engineering)",
-          src: "/avatar/prof.png",
+            "Voices of Impact: People on Kanika Aggarwal’s Vision for Nexora TLX",
+          name: "Mr. Jonathan",
+          designation: "Euthopia",
+          src: "/avatar/child3.png",
+          video: "https://www.youtube.com/embed/HUKD3nqHJ_4?controls=1&autoplay=0&mute=0&modestbranding=1&rel=0",
         },
         {
           quote:
-            "What impressed us most was the student-first design. Our learners are more engaged and curious than ever before.",
-          name: "Shreya Nair",
-          designation: "Principal, Vidya Valley International School",
-          src: "/avatar/new1.png",
+            "This testimonial highlights the real impact Nexora TLX is creating – empowering students, educators, and innovators to bridge the gap between education and industry.",
+          name: "Mr. Naeem Tirmizi",
+          designation: "National Chairman of Global Excellence Forum and MD Elite Group",
+          src: "/avatar/child3.png",
+          video: "https://www.youtube.com/embed/eIKyCTHGiAE?controls=1&autoplay=0&mute=0&modestbranding=1&rel=0",
+        },
+        {
+          quote:
+            "Why Kanika Aggarwal Inspires Us | Nexora TLX Founder Testimonial",
+          name: "Dr. Ruchi Singla",
+          designation: "Founder & CEO, RASIntellect Pvt. Ltd.",
+          src: "/avatar/child3.png",
+          video: "https://www.youtube.com/embed/2BBDp8o-lRo?controls=1&autoplay=0&mute=0&modestbranding=1&rel=0",
         },
     ];
     // {
