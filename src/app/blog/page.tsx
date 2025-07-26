@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Blogs | Nexora TLX',
     description: 'Latest articles and updates on STEAM education from Nexora TLX.',
-    url: 'https://nexoratlx.com/blogs',
+    url: 'https://terraluxe.in/blogs',
     siteName: 'Nexora TLX',
     images: [
       {

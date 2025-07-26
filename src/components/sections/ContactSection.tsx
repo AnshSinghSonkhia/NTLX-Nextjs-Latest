@@ -28,9 +28,9 @@ const ContactSection = () => {
           icon: <IconMail />,
         },
         {
-          title: "Hyderabad, India",
+          title: "Delhi, India",
           description:
-            "Visit us at our Hyderabad office for personalized assistance.",
+            "Visit us at our Delhi office for personalized assistance.",
           icon: <IconMapPin />,
         },
       ];
