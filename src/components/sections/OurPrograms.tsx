@@ -56,12 +56,18 @@ export function Programs() {
             <div className="absolute inset-0 bg-black/50 group-hover:bg-black/70 transition duration-300 z-0" />
 
             {/* Content */}
-            <div id="courses" className="relative z-10 p-6 h-full flex flex-col justify-end">
+            <a
+                id="courses"
+                href="/courses"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative z-10 p-6 h-full flex flex-col justify-end"
+            >
                 <h2 className="text-white text-2xl font-bold mb-2">Courses</h2>
                 <p className="text-white text-sm">
                     Explore our comprehensive courses designed to enhance your skills and knowledge.
                 </p>
-            </div>
+            </a>
             </div>
 
             {/* Card4 */}

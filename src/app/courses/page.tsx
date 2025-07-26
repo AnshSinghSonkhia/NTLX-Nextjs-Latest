@@ -9,13 +9,13 @@ import { CourseNavbar } from '@/components/sections/Courses/CourseNavbar';
 import ScrollToTopButton from '@/components/sections/ScrollToTop';
 
 export const metadata: Metadata = {
-  title: 'Blogs | Nexora TLX - Shaping the Future of STEAM Education',
+  title: 'Courses | Nexora TLX - Shaping the Future of STEAM Education',
   description:
     'Explore latest insights, research articles, and updates on STEAM education with Nexora TLX\'s curated blog posts.',
   openGraph: {
     title: 'Blogs | Nexora TLX',
     description: 'Latest articles and updates on STEAM education from Nexora TLX.',
-    url: 'https://nexoratlx.com/blogs',
+    url: 'https://terraluxe.in/courses',
     siteName: 'Nexora TLX',
     images: [
       {

@@ -1,6 +1,6 @@
 // src/app/robots.txt/route.ts
 
-const baseURL = "https://nexoratlx.com";
+const baseURL = "https://terraluxe.in";
 
 export async function GET() {
   const content = `

@@ -57,7 +57,7 @@ _Last updated: April 2025_
 
 This Privacy Notice for NexoraTLX ("**we**," "**us**," or "**our**"), describes how and why we might access, collect, store, use, and/or share ("**process**") your personal information when you use our services ("**Services**"), including when you:
 
-*   Visit our website at nexoratlx.com, or any website of ours that links to this Privacy Notice
+*   Visit our website at terraluxe.in, or any website of ours that links to this Privacy Notice
 
 *   Engage with us in other related ways, including any sales, marketing, or events
 
@@ -602,7 +602,7 @@ NexoraTLX
 
 \_\_\_\_\_\_\_\_\_\_
 
-Hyderabad, Telangana
+Delhi, Telangana
 
 India
 

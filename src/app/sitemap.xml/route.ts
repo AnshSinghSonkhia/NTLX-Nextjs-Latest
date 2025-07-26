@@ -1,6 +1,6 @@
 // app/sitemap.xml/route.ts
 
-const baseURL = "https://nexoratlx.com";
+const baseURL = "https://terraluxe.in";
 
 const routesConfig = {
   "/": true,
